@@ -28,7 +28,7 @@ class App extends Component {
 
   handleDelete = (e, obj) => {
     this.setState({
-      filteredBurgers: this.state.burgerz.filter(burger =>{
+      burgerz: this.state.burgerz.filter(burger =>{
         return burger !== obj
       })
     })
